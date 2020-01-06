@@ -177,13 +177,7 @@ a.main-button:hover {
      flex-direction: column;
      padding-left: 11px;
  }
-
- .overlap-container .CLASS {
-    width: 300px;  
-    height: 380px;  
-    border: 0px;  
-    background-color: transparent;  
- }
+ 
 
 /* Tercera sección podcast */
 
@@ -466,18 +460,12 @@ a.main-button:hover {
     }
     
     .section-episodios iframe {
-        
+        width: 584px;
+        height: 232px;
+        border: 0;
         margin-bottom: 72px;
         
     }
-
-    .overlap-container .CLASS {
-        width: 584px;  
-        height: 232px;  
-        border: 0px;  
-        background-color: transparent;  
-     }
-     
      .audio {
         margin: 0 100px 0 100px;
         display: flex;
@@ -527,12 +515,12 @@ a.main-button:hover {
     }
 
     .section2-container img {
-        width: 480px;
+        width: 475px;
         height: 364px;
     }
 
     .section-podcast li {
-        max-width: 480px;
+        max-width: 475px;
         max-height: 364px;
     }
 
@@ -540,6 +528,7 @@ a.main-button:hover {
         display: flex;
         flex-wrap: wrap;
         flex-direction: initial;
+        
     }
 
     #entrevistas {
