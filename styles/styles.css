@@ -178,6 +178,13 @@ a.main-button:hover {
      padding-left: 11px;
  }
 
+ .overlap-container .CLASS {
+    width: 300px;  
+    height: 380px;  
+    border: 0px;  
+    background-color: transparent;  
+ }
+
 /* Tercera sección podcast */
 
 .overlap-container img {
@@ -459,12 +466,18 @@ a.main-button:hover {
     }
     
     .section-episodios iframe {
-        width: 584px;
-        height: 232px;
-        border: 0;
+        
         margin-bottom: 72px;
         
     }
+
+    .overlap-container .CLASS {
+        width: 584px;  
+        height: 232px;  
+        border: 0px;  
+        background-color: transparent;  
+     }
+     
      .audio {
         margin: 0 100px 0 100px;
         display: flex;
