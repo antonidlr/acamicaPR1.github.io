@@ -167,17 +167,23 @@ a.main-button:hover {
 }
 
 .section-episodios iframe {
-    width: 298px;
-    height: 232px;
-    border: 0;
+
     margin-bottom: 11px;
 }
+
+.display {
+    width: 298px;
+    height: 232px;
+    border: 0px;
+    background-color: transparent;
+    
+}
+
  .audio {
      display: flex;
      flex-direction: column;
      padding-left: 11px;
  }
- 
 
 /* Tercera sección podcast */
 
@@ -460,12 +466,19 @@ a.main-button:hover {
     }
     
     .section-episodios iframe {
-        width: 584px;
-        height: 232px;
-        border: 0;
+       
         margin-bottom: 72px;
         
     }
+
+    .display {
+        width: 584px;
+        height: 232px;
+        border: 0px;
+        background-color: transparent;
+    }
+    
+
      .audio {
         margin: 0 100px 0 100px;
         display: flex;
@@ -515,12 +528,12 @@ a.main-button:hover {
     }
 
     .section2-container img {
-        width: 475px;
+        width: 480px;
         height: 364px;
     }
 
     .section-podcast li {
-        max-width: 475px;
+        max-width: 480px;
         max-height: 364px;
     }
 
@@ -528,7 +541,6 @@ a.main-button:hover {
         display: flex;
         flex-wrap: wrap;
         flex-direction: initial;
-        
     }
 
     #entrevistas {
